@@ -1,0 +1,12 @@
+{application, plain_rpc,
+ [
+  {description, "plain_fsm companion."},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {modules, [plain_rpc]},
+  {env, []}
+ ]}.
